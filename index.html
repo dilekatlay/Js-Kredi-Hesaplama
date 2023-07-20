@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kredi Hesaplama Formu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h3>KREDİ HESAPLAMA FORMU</h3>
+    <div class="tablo">
+        <form action="#" id = "formKredi">
+            <label class="krediTutari" for = "krediTutari">Çekmek istediğiniz kredi tutarını giriniz:</label>
+            <input class="girilenKredi" type="text" name="" id="girilenKredi">
+            <label for = "listeVade">Vade seçiniz:<label>
+                <select name="" id="listeVade">
+                    <option value="12">12 Ay</option>
+                    <option value="24">24 Ay</option>
+                    <option value="36">36 Ay</option>
+                    <option value="48">48 Ay</option>
+                </select>
+                <input class="button" type="button" value="Kredi Hesapla" onclick="krediHesapla()">
+        </form>
+    </div>
+    
+    <h5 class="sonuc" id="Sonuç"></h5>
+
+</body>
+</html>
